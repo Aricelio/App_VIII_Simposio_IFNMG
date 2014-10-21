@@ -41,7 +41,7 @@ public class Atividade {
 	@Override
 	public String toString() {
 		try {
-			String strdata = converteStringForDate(this.data);
+			String strdata = converteDateToString(this.data);
 
 			return "\n" + this.nome 
 					+ "\nHorário: " + strdata 
@@ -51,8 +51,8 @@ public class Atividade {
 		}
 	}
 
-	// Método que converte uma String em uma Data....................
-	public String converteStringForDate(Date data)
+	// Método que converte uma Data em String....
+	public String converteDateToString(Date data)
 			throws java.text.ParseException {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm");
 		String dateString = dateFormat.format(data);
