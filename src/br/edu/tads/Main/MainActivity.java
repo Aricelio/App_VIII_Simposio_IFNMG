@@ -1,6 +1,7 @@
 package br.edu.tads.Main;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import br.edu.tads.DomainModel.Atividade;
@@ -57,25 +58,25 @@ public class MainActivity extends ActionBarActivity {
 		// Tab Terça
 		TabSpec specs = th.newTabSpec("tag1");
 		specs.setContent(R.id.tabTerca);
-		specs.setIndicator("Terça (28/10)");
+		specs.setIndicator("Ter (28/10)");
 		th.addTab(specs);
 
 		// Tab Quarta
 		specs = th.newTabSpec("tag2");
 		specs.setContent(R.id.tabQuarta);
-		specs.setIndicator("Quarta (29/10)");
+		specs.setIndicator("Qua (29/10)");
 		th.addTab(specs);
 
 		// Tab Quinta
 		specs = th.newTabSpec("tag3");
 		specs.setContent(R.id.tabQuinta);
-		specs.setIndicator("Quinta (30/10)");
+		specs.setIndicator("Qui (30/10)");
 		th.addTab(specs);
 
 		// Tab Sexta
 		specs = th.newTabSpec("tag4");
 		specs.setContent(R.id.tabSexta);
-		specs.setIndicator("Sexta (31/10)");
+		specs.setIndicator("Sex (31/10)");
 		th.addTab(specs);
 	}
 
@@ -117,9 +118,11 @@ public class MainActivity extends ActionBarActivity {
 	public List<Atividade> preencheTerca() {
 		List<Atividade> listaT = new ArrayList<Atividade>();
 		Atividade atividade = new Atividade();
+		Date data = new Date();
 
 		atividade.setNome("Minicurso: Introdução a Robótica");
 		atividade.setLocal("Laboratório 1 - Ensino Superior");
+		atividade.setData(data);
 
 		listaT.add(atividade);
 
@@ -130,29 +133,33 @@ public class MainActivity extends ActionBarActivity {
 	public List<Atividade> preencheQuarta() {
 		List<Atividade> listaQ = new ArrayList<Atividade>();
 		Atividade atividade = new Atividade();
+		Date data = new Date();
 
 		atividade.setNome("Minicurso: Versionamento de Código com Git");
 		atividade.setLocal("Laboratório 2 - Ensino Superior");
+		atividade.setData(data);
 
 		listaQ.add(atividade);
 
 		return listaQ;
 	}
 
-	// Método que preenche os dados das Atividades de Quarta.................
+	// Método que preenche os dados das Atividades de Quinta.................
 	public List<Atividade> preencheQuinta() {
 		List<Atividade> listaQ = new ArrayList<Atividade>();
 		Atividade atividade = new Atividade();
+		Date data = new Date();
 
 		atividade.setNome("Minicurso: Monetização de Apps Android");
 		atividade.setLocal("Laboratório 3 - Ensino Superior");
+		atividade.setData(data);
 
 		listaQ.add(atividade);
 
 		return listaQ;
 	}
 
-	// Método que preenche os dados das Atividades de Quarta.................
+	// Método que preenche os dados das Atividades de Sexta...................
 	public List<Atividade> preencheSexta() {
 		List<Atividade> listaS = new ArrayList<Atividade>();
 		Atividade atividade1 = new Atividade();
@@ -160,21 +167,28 @@ public class MainActivity extends ActionBarActivity {
 		Atividade atividade3 = new Atividade();
 		Atividade atividade4 = new Atividade();
 		Atividade atividade5 = new Atividade();
+		
+		Date data = new Date();
 
 		atividade1.setNome("Maratona de Programação - Técnico");
 		atividade1.setLocal("Laboratório 3 - Ensino Superior");
+		atividade1.setData(data);
 		
 		atividade2.setNome("Maratona de Programação - Superior");
 		atividade2.setLocal("Laboratório 3 - Ensino Superior");
+		atividade2.setData(data);
 		
 		atividade3.setNome("Maratona de Programação - Superior");
 		atividade3.setLocal("Laboratório 3 - Ensino Superior");
+		atividade3.setData(data);
 		
 		atividade4.setNome("Maratona de Programação - Superior");
 		atividade4.setLocal("Laboratório 3 - Ensino Superior");
+		atividade4.setData(data);
 
 		atividade5.setNome("Encerramento");
 		atividade5.setLocal("Auditório");
+		atividade5.setData(data);
 
 		listaS.add(atividade1);
 		listaS.add(atividade2);
