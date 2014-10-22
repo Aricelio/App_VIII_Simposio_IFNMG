@@ -44,6 +44,8 @@ public class MainActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		this.getActionBar().setSubtitle("IFNMG Câmpus Januária");
 
 		// Configuração das Listas
 		lstAtividadesTerca = (ListView) findViewById(R.id.lstAtividadesTerca);
@@ -140,6 +142,7 @@ public class MainActivity extends ActionBarActivity {
 		Atividade atividade12 = new Atividade();
 		Atividade atividade13 = new Atividade();
 		Atividade atividade14 = new Atividade();
+		Atividade atividade15 = new Atividade();
 
 		atividade1.setNome("Credenciamento");
 		atividade1.setLocal("Ensino Superior");
@@ -166,8 +169,7 @@ public class MainActivity extends ActionBarActivity {
 		atividade5.setLocal("");
 
 		// Abertura.....................................................
-		atividade6
-				.setNome("Abertura Oficial\nPalestra: Sobre Problemas, Respostas, Perguntas e Soluções");
+		atividade6.setNome("Abertura Oficial\nPalestra: Sobre Problemas, Respostas, Perguntas e Soluções");
 		atividade6.setLocal("Anfiteatro - Ensino Superior");
 		atividade6.setData(converteStringToDate("28-10-2014 13:30"));
 
@@ -179,6 +181,11 @@ public class MainActivity extends ActionBarActivity {
 		atividade8.setLocal("Anfiteatro - Ensino Superior");
 		atividade8.setData(converteStringToDate("28-10-2014 16:00"));
 
+		// BomberTads.....................................................
+		atividade15.setNome("Torneio de Bomber TADS");
+		atividade15.setLocal("Laboratório II e Laboratorio III - Superior");
+		atividade15.setData(converteStringToDate("28-10-2014 18:00"));
+		
 		// Minicursos da Noite..........................................
 		atividade9.setNome("Minicurso: Desenvolvimento de Sites Responsivos");
 		atividade9.setLocal("Laboratório II - Técnico");
@@ -214,12 +221,14 @@ public class MainActivity extends ActionBarActivity {
 		listaT.add(atividade6);
 		listaT.add(atividade7);
 		listaT.add(atividade8);
+		listaT.add(atividade15);
 		listaT.add(atividade9);
 		listaT.add(atividade10);
 		listaT.add(atividade11);
 		listaT.add(atividade12);
 		listaT.add(atividade13);
 		listaT.add(atividade14);
+		
 
 		return listaT;
 	}
@@ -328,6 +337,7 @@ public class MainActivity extends ActionBarActivity {
 		Atividade atividade17 = new Atividade();
 		Atividade atividade18 = new Atividade();
 		Atividade atividade19 = new Atividade();
+		Atividade atividade20 = new Atividade();
 
 		// Minicurso de Manha..................................................
 		atividade1.setNome("Minicurso: Introdução ao Desenvolvimento de Aplicativos Android");
@@ -376,6 +386,11 @@ public class MainActivity extends ActionBarActivity {
 		atividade11.setNome("Palestra: Dados Abertos em Governo Eletrônico");
 		atividade11.setLocal("Anfiteatro - Ensino Superior");
 		atividade11.setData(converteStringToDate("30-10-2014 16:00"));
+		
+		// BomberTads.....................................................
+		atividade20.setNome("Torneio de Bomber TADS");
+		atividade20.setLocal("Laboratório II e Laboratorio III - Superior");
+		atividade20.setData(converteStringToDate("28-10-2014 18:00"));
 
 		// Minicursos á Noite..............................................
 		atividade12.setNome("Minicurso: Estimulando o Interesse da Programação de Computadores Desenvolvendo Jogos e Animações");
@@ -422,6 +437,7 @@ public class MainActivity extends ActionBarActivity {
 		listaQ.add(atividade9);
 		listaQ.add(atividade10);
 		listaQ.add(atividade11);
+		listaQ.add(atividade20);
 		listaQ.add(atividade12);
 		listaQ.add(atividade13);
 		listaQ.add(atividade14);

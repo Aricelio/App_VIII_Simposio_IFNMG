@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">VIII Simposio IFNMG</string>
+    <string name="app_name">VIII Simpósio de Informática</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Sobre</string>
     <string name="title_activity_sobre">Sobre</string>
