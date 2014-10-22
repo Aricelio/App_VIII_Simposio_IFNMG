@@ -144,12 +144,14 @@ public class MainActivity extends ActionBarActivity {
 		atividade1.setLocal("Ensino Superior");
 		atividade1.setData(converteStringToDate("28-10-2014 07:30"));
 
+		// Intervalo 9:30..............................................
 		atividade2.setNome("Intervalo");
-		atividade2.setLocal("");
 		atividade2.setData(converteStringToDate("28-10-2014 09:30"));
+		atividade2.setLocal("");
 
-		atividade3.setNome("Minicurso: Introdução a Robótica - Turma 1");
-		atividade3.setLocal("Laboratório 2 - Ensino Superior");
+		// Minicursos de Manhã.........................................
+		atividade3.setNome("Minicurso: Introdução a Robótica - Turma I");
+		atividade3.setLocal("Laboratório II - Ensino Superior");
 		atividade3.setData(converteStringToDate("28-10-2014 10:00"));
 
 		atividade4
@@ -157,11 +159,14 @@ public class MainActivity extends ActionBarActivity {
 		atividade4.setLocal("Laboratório 3 - Ensino Superior");
 		atividade4.setData(converteStringToDate("28-10-2014 10:00"));
 
+		// Almoço.......................................................
 		atividade5.setNome("Almoço");
-		atividade5.setLocal("");
 		atividade5.setData(converteStringToDate("28-10-2014 12:00"));
+		atividade5.setLocal("");
 
-		atividade6.setNome("Abertura Oficial/Palestra");
+		// Abertura.....................................................
+		atividade6
+				.setNome("Abertura Oficial\nPalestra: Sobre Problemas, Respostas, Perguntas e Soluções");
 		atividade6.setLocal("Anfiteatro - Ensino Superior");
 		atividade6.setData(converteStringToDate("28-10-2014 13:30"));
 
@@ -173,7 +178,7 @@ public class MainActivity extends ActionBarActivity {
 		atividade8.setLocal("Anfiteatro - Ensino Superior");
 		atividade8.setData(converteStringToDate("28-10-2014 16:00"));
 
-		// Minicursos............................................................
+		// Minicursos da Noite..........................................
 		atividade9.setNome("Minicurso: Desenvolvimento de Sites Responsivos");
 		atividade9.setLocal("Laboratório II - Técnico");
 		atividade9.setData(converteStringToDate("28-10-2014 19:00"));
@@ -190,15 +195,16 @@ public class MainActivity extends ActionBarActivity {
 		atividade12.setLocal("Laboratório I - Superior");
 		atividade12.setData(converteStringToDate("28-10-2014 19:00"));
 
-		atividade13
-				.setNome("Minicurso: Modelagem 3D com Trimble Sketchup - Turma II");
+		atividade13.setNome("Minicurso: Modelagem 3D com Trimble Sketchup - Turma II");
 		atividade13.setLocal("Laboratório I - Técnico");
 		atividade13.setData(converteStringToDate("28-10-2014 19:00"));
 
+		// Intervalor 20:30...............................................
 		atividade14.setNome("Intervalo");
-		atividade14.setLocal("");
 		atividade14.setData(converteStringToDate("28-10-2014 20:30"));
+		atividade14.setLocal("");
 
+		// Adicionando os objetos na lista
 		listaT.add(atividade1);
 		listaT.add(atividade2);
 		listaT.add(atividade3);
@@ -233,36 +239,32 @@ public class MainActivity extends ActionBarActivity {
 		Atividade atividade10 = new Atividade();
 		Atividade atividade11 = new Atividade();
 
-		// Minicursos......................................................
+		// Minicursos de Manhã................................................
 		atividade1.setNome("Minicurso: Arduino e PCI");
 		atividade1.setLocal("Laboratório II - Ensino Superior");
 		atividade1.setData(converteStringToDate("29-10-2014 07:30"));
 
-		atividade2
-				.setNome("Minicurso: Introdução ao Desenvolvimento de Sistemas Embarcados");
+		atividade2.setNome("Minicurso: Introdução ao Desenvolvimento de Sistemas Embarcados");
 		atividade2.setLocal("Laboratório  III - Ensino Superior");
 		atividade2.setData(converteStringToDate("29-10-2014 07:30"));
 
-		atividade3
-				.setNome("Minicurso: Introdução ao Versionamento de Código Utilizando Git e GitHub");
+		atividade3.setNome("Minicurso: Introdução ao Versionamento de Código Utilizando Git e GitHub");
 		atividade3.setLocal("Carreta");
 		atividade3.setData(converteStringToDate("29-10-2014 07:30"));
 
-		atividade4
-				.setNome("Minicurso: Computação em Nuvem e Gerenciamento de Projetos - Análises e Ferramentas");
+		atividade4.setNome("Minicurso: Computação em Nuvem e Gerenciamento de Projetos - Análises e Ferramentas");
 		atividade4.setLocal("Laboratório IV - Ensino Superior");
 		atividade4.setData(converteStringToDate("29-10-2014 07:30"));
 
-		atividade5
-				.setNome("Minicurso: Publicação e Monetização de Conteúdos no Youtube");
+		atividade5.setNome("Minicurso: Publicação e Monetização de Conteúdos no Youtube");
 		atividade5.setLocal("Auditório da Biblioteca");
 		atividade5.setData(converteStringToDate("29-10-2014 07:30"));
 
-		atividade6
-				.setNome("Banco de Dados - Conceitos, SQL e Carreira - Turma II");
+		atividade6.setNome("Minicurso: Banco de Dados - Conceitos, SQL e Carreira - Turma II");
 		atividade6.setLocal("Laboratório I - Ensino Superior");
 		atividade6.setData(converteStringToDate("29-10-2014 07:30"));
 
+		// Almoço......................................................
 		atividade7.setNome("Almoço");
 		atividade7.setLocal("");
 		atividade7.setData(converteStringToDate("29-10-2014 12:00"));
@@ -271,13 +273,13 @@ public class MainActivity extends ActionBarActivity {
 		atividade8.setLocal("Anfiteatro - Ensino Superior");
 		atividade8.setData(converteStringToDate("29-10-2014 13:30"));
 
+		// Intervalo e Mostra de Posteres.............................
 		atividade9.setNome("Intervalo - Mostra de Posteres");
 		atividade9.setLocal("Anfiteatro - Ensino Superior");
 		atividade9.setData(converteStringToDate("29-10-2014 15:30"));
 
-		atividade10
-				.setNome("Palestra: Ferramenta de Bioinformática para o HIV: O Brasil no Cenário Mundial "
-						+ "\n\nPalestra: Utilização de Ferramentas de Inteligência Computacional para Seleção de Características no Problema de Classificação de Tipos de Leucemia\n");
+		atividade10.setNome("Palestra: Ferramenta de Bioinformática para o HIV: O Brasil no Cenário Mundial "
+					+ "\n\nPalestra: Utilização de Ferramentas de Inteligência Computacional para Seleção de Características no Problema de Classificação de Tipos de Leucemia\n");
 		atividade10.setLocal("Anfiteatro - Ensino Superior");
 		atividade10.setData(converteStringToDate("29-10-2014 16:00"));
 
@@ -303,8 +305,9 @@ public class MainActivity extends ActionBarActivity {
 
 	// Método que preenche os dados das Atividades de Quinta.................
 	public List<Atividade> preencheQuinta() throws ParseException {
-		List<Atividade> listaQ = new ArrayList<Atividade>();
 
+		// Variaveis
+		List<Atividade> listaQ = new ArrayList<Atividade>();
 		Atividade atividade1 = new Atividade();
 		Atividade atividade2 = new Atividade();
 		Atividade atividade3 = new Atividade();
@@ -323,7 +326,9 @@ public class MainActivity extends ActionBarActivity {
 		Atividade atividade16 = new Atividade();
 		Atividade atividade17 = new Atividade();
 		Atividade atividade18 = new Atividade();
+		Atividade atividade19 = new Atividade();
 
+		// Minicurso de Manha..................................................
 		atividade1.setNome("Minicurso: Introdução ao Desenvolvimento de Aplicativos Android");
 		atividade1.setLocal("Laboratório II - Técnico");
 		atividade1.setData(converteStringToDate("30-10-2014 07:30"));
@@ -340,68 +345,70 @@ public class MainActivity extends ActionBarActivity {
 		atividade4.setLocal("Carreta");
 		atividade4.setData(converteStringToDate("30-10-2014 07:30"));
 
-		atividade4.setNome("Minicurso: Virtualização com VMWARE ESXI");
-		atividade4.setLocal("Laboratório III - Superior");
-		atividade4.setData(converteStringToDate("30-10-2014 07:30"));
-
-		atividade5.setNome("Minicurso: Java 8 - A Evolução da Linguagem");
-		atividade5.setLocal("Auditório da Biblioteca");
+		atividade5.setNome("Minicurso: Virtualização com VMWARE ESXI");
+		atividade5.setLocal("Laboratório III - Superior");
 		atividade5.setData(converteStringToDate("30-10-2014 07:30"));
 
+		atividade6.setNome("Minicurso: Java 8 - A Evolução da Linguagem");
+		atividade6.setLocal("Auditório da Biblioteca");
+		atividade6.setData(converteStringToDate("30-10-2014 07:30"));
+
 		// Intervalo 9:30...................................................
-		atividade14.setNome("Intervalo");
-		atividade14.setLocal("");
-		atividade14.setData(converteStringToDate("30-10-2014 09:30"));
+		atividade7.setNome("Intervalo");
+		atividade7.setLocal("");
+		atividade7.setData(converteStringToDate("30-10-2014 09:30"));
 
 		// Almoço 12:00....................................................
-		atividade15.setNome("Almoço");
-		atividade15.setLocal("");
-		atividade15.setData(converteStringToDate("30-10-2014 12:00"));
-		
-		atividade16.setNome("Palestra: ");
-		atividade16.setLocal("Anfiteatro - Ensino Superior");
-		atividade16.setData(converteStringToDate("30-10-2014 13:30"));
-		
-		atividade17.setNome("Intervalo/Mostra de Posteres");
-		atividade17.setLocal("Ensino Superior");
-		atividade17.setData(converteStringToDate("30-10-2014 15:30"));
-		
-		atividade18.setNome("Palestra: ");
-		atividade18.setLocal("Anfiteatro - Ensino Superior");
-		atividade18.setData(converteStringToDate("30-10-2014 16:00"));
-		
-		atividade6.setNome("Minicurso: Estimulando o Interesse da Programação de Computadores Desenvolvendo Jogos e Animações");
-		atividade6.setLocal("Laboratório III - Superior");
-		atividade6.setData(converteStringToDate("30-10-2014 19:00"));
+		atividade8.setNome("Almoço");
+		atividade8.setLocal("");
+		atividade8.setData(converteStringToDate("30-10-2014 12:00"));
 
-		atividade7.setNome("Minicurso: Instalação e Gestão de Conteúdos com WordPress");
-		atividade7.setLocal("Laboratório II - Superior");
-		atividade7.setData(converteStringToDate("30-10-2014 19:00"));
+		// Palestras.......................................................
+		atividade9.setNome("Palestra: Análise em Big Data via Mineração de Dados");
+		atividade9.setLocal("Anfiteatro - Ensino Superior");
+		atividade9.setData(converteStringToDate("30-10-2014 13:30"));
 
-		atividade8.setNome("Minicurso: Monetização de Sites");
-		atividade8.setLocal("Auditório da Biblioteca");
-		atividade8.setData(converteStringToDate("30-10-2014 19:00"));
+		atividade10.setNome("Intervalo - Mostra de Posteres");
+		atividade10.setLocal("Ensino Superior");
+		atividade10.setData(converteStringToDate("30-10-2014 15:30"));
 
-		atividade9.setNome("Minicurso: Empreendedorismo e Inovação");
-		atividade9.setLocal("Sala de Aula 17 - Superior");
-		atividade9.setData(converteStringToDate("30-10-2014 19:00"));
+		atividade11.setNome("Palestra: Dados Abertos em Governo Eletrônico");
+		atividade11.setLocal("Anfiteatro - Ensino Superior");
+		atividade11.setData(converteStringToDate("30-10-2014 16:00"));
 
-		atividade10.setNome("Minicurso: Introdução ao Photoshop - Turma II");
-		atividade10.setLocal("Carreta");
-		atividade10.setData(converteStringToDate("30-10-2014 19:00"));
-
-		atividade11.setNome("Minicurso: Introdução a Robótica - Turma II");
-		atividade11.setLocal("Laboratório I - Superior");
-		atividade11.setData(converteStringToDate("30-10-2014 19:00"));
-
-		atividade12.setNome("Minicurso: Desenvolvimento de Sistemas Web com Java");
-		atividade12.setLocal("Laboratório IV - Superior");
+		// Minicursos á Noite..............................................
+		atividade12.setNome("Minicurso: Estimulando o Interesse da Programação de Computadores Desenvolvendo Jogos e Animações");
+		atividade12.setLocal("Laboratório III - Superior");
 		atividade12.setData(converteStringToDate("30-10-2014 19:00"));
 
+		atividade13.setNome("Minicurso: Instalação e Gestão de Conteúdos com WordPress");
+		atividade13.setLocal("Laboratório II - Superior");
+		atividade13.setData(converteStringToDate("30-10-2014 19:00"));
+
+		atividade14.setNome("Minicurso: Monetização de Sites");
+		atividade14.setLocal("Auditório da Biblioteca");
+		atividade14.setData(converteStringToDate("30-10-2014 19:00"));
+
+		atividade15.setNome("Minicurso: Empreendedorismo e Inovação");
+		atividade15.setLocal("Sala de Aula 17 - Superior");
+		atividade15.setData(converteStringToDate("30-10-2014 19:00"));
+
+		atividade16.setNome("Minicurso: Introdução ao Photoshop - Turma II");
+		atividade16.setLocal("Carreta");
+		atividade16.setData(converteStringToDate("30-10-2014 19:00"));
+
+		atividade17.setNome("Minicurso: Introdução a Robótica - Turma II");
+		atividade17.setLocal("Laboratório I - Superior");
+		atividade17.setData(converteStringToDate("30-10-2014 19:00"));
+
+		atividade18.setNome("Minicurso: Desenvolvimento de Sistemas Web com Java");
+		atividade18.setLocal("Laboratório IV - Superior");
+		atividade18.setData(converteStringToDate("30-10-2014 19:00"));
+
 		// Intervalo 20:30......................................................
-		atividade13.setNome("Intervalo");
-		atividade13.setLocal("");
-		atividade13.setData(converteStringToDate("30-10-2014 20:30"));
+		atividade19.setNome("Intervalo");
+		atividade19.setLocal("");
+		atividade19.setData(converteStringToDate("30-10-2014 20:30"));
 
 		listaQ.add(atividade1);
 		listaQ.add(atividade2);
@@ -415,6 +422,13 @@ public class MainActivity extends ActionBarActivity {
 		listaQ.add(atividade10);
 		listaQ.add(atividade11);
 		listaQ.add(atividade12);
+		listaQ.add(atividade13);
+		listaQ.add(atividade14);
+		listaQ.add(atividade15);
+		listaQ.add(atividade16);
+		listaQ.add(atividade17);
+		listaQ.add(atividade18);
+		listaQ.add(atividade19);
 
 		return listaQ;
 	}
@@ -427,35 +441,83 @@ public class MainActivity extends ActionBarActivity {
 		Atividade atividade3 = new Atividade();
 		Atividade atividade4 = new Atividade();
 		Atividade atividade5 = new Atividade();
+		Atividade atividade6 = new Atividade();
+		Atividade atividade7 = new Atividade();
+		Atividade atividade8 = new Atividade();
+		Atividade atividade9 = new Atividade();
+		Atividade atividade10 = new Atividade();
+		Atividade atividade11 = new Atividade();
+		Atividade atividade12 = new Atividade();
 
-		// Date data = new Date();
+		// Minicursos de Manha..........................................
+		atividade1.setNome("Minicurso: Ignorando Proteções - Turma I");
+		atividade1.setLocal("Laboratório III - Ensino Superior");
+		atividade1.setData(converteStringToDate("31-10-2014 07:30"));
 
-		atividade1.setNome("Maratona de Programação - Técnico");
-		atividade1.setLocal("Laboratório 3 - Ensino Superior");
-		atividade1.setData(converteStringToDate("31-10-2014 08:00"));
+		atividade2.setNome("Minicurso: Sites Rápidos e Profissionais com Bootstrap");
+		atividade2.setLocal("Laboratório II - Técnico");
+		atividade2.setData(converteStringToDate("31-10-2014 07:30"));
 
-		atividade2.setNome("Maratona de Programação - Superior");
-		atividade2.setLocal("Laboratório 3 - Ensino Superior");
-		atividade2.setData(converteStringToDate("31-10-2014 14:00"));
+		atividade3.setNome("Minicurso: Análise em Big Data e um Estudo de Caso de Utilizando Computação em Nuvem");
+		atividade3.setLocal("Laboratório II - Ensino Superior");
+		atividade3.setData(converteStringToDate("31-10-2014 07:30"));
 
-		atividade3.setNome("Maratona de Programação - Superior");
-		atividade3.setLocal("Laboratório 3 - Ensino Superior");
-		atividade3.setData(converteStringToDate("31-10-2014 14:00"));
+		atividade4.setNome("Minicurso: Monetização de Aplicativos Android");
+		atividade4.setLocal("Carreta");
+		atividade4.setData(converteStringToDate("31-10-2014 07:30"));
+		
+		// Intervalo 09:30..............................................
+		atividade5.setNome("Intervalo");
+		atividade5.setLocal("");
+		atividade5.setData(converteStringToDate("31-10-2014 09:30"));
 
-		atividade4.setNome("Maratona de Programação - Superior");
-		atividade4.setLocal("Laboratório 3 - Ensino Superior");
-		atividade4.setData(converteStringToDate("31-10-2014 14:00"));
+		// Almoço 12:00.................................................
+		atividade6.setNome("Almoço");
+		atividade6.setLocal("");
+		atividade6.setData(converteStringToDate("31-10-2014 12:00"));
 
-		atividade5.setNome("Encerramento");
-		atividade5.setLocal("Auditório");
-		atividade5.setData(converteStringToDate("31-10-2014 18:00"));
+		// Maratona Técnico.............................................
+		atividade7.setNome("Maratona de Programação - Técnico");
+		atividade7.setLocal("Laboratório I - Ensino Superior");
+		atividade7.setData(converteStringToDate("31-10-2014 08:00"));
+		
+		// Minicursos á Tarde...........................................
+		atividade8.setNome("Minicurso: Ignorando Proteções - Turma II");
+		atividade8.setLocal("Laboratório III - Ensino Superior");
+		atividade8.setData(converteStringToDate("31-10-2014 13:30"));
 
+		atividade9.setNome("Minicurso: Criação de um Website Completo em 4 horas Utilizando Joomla!");
+		atividade9.setLocal("Carreta");
+		atividade9.setData(converteStringToDate("31-10-2014 13:30"));
+
+		atividade10.setNome("Minicurso: Utilização da Realidade Virtual no Auxilio a Educação");
+		atividade10.setLocal("Laboratório II - Ensino Superior");
+		atividade10.setData(converteStringToDate("31-10-2014 13:30"));		
+
+		// Maratona Superior............................................
+		atividade11.setNome("Maratona de Programação - Superior");
+		atividade11.setLocal("Laboratório I - Ensino Superior");
+		atividade11.setData(converteStringToDate("31-10-2014 14:00"));
+
+		// Intervalo 15:30..............................................
+		atividade12.setNome("Intervalo");
+		atividade12.setLocal("");
+		atividade12.setData(converteStringToDate("31-10-2014 15:30"));
+
+		// Adicionando os objetos na lista..............................
 		listaS.add(atividade1);
 		listaS.add(atividade2);
 		listaS.add(atividade3);
 		listaS.add(atividade4);
 		listaS.add(atividade5);
-
+		listaS.add(atividade6);
+		listaS.add(atividade7);
+		listaS.add(atividade8);
+		listaS.add(atividade9);
+		listaS.add(atividade10);
+		listaS.add(atividade11);
+		listaS.add(atividade12);
+		
 		return listaS;
 	}
 

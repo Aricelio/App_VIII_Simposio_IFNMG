@@ -12,6 +12,13 @@ public class Atividade {
 	private Date data;
 	private String local;
 
+	
+	// Construtor..............................
+	public Atividade() {
+		super();
+		this.local = "";
+	}
+
 	// Getters ans Setters.....................
 	public String getNome() {
 		return nome;
@@ -42,10 +49,16 @@ public class Atividade {
 	public String toString() {
 		try {
 			String strdata = converteDateToString(this.data);
-
-			return "\n" + this.nome 
-					+ "\nHorário: " + strdata 
-					+ "\nLocal: "	+ this.local;
+			if (this.local.equals("")) {
+				return "\n" 
+						+ this.nome 
+						+ "\nHorário: " + strdata;
+			} else {
+				return "\n" 
+						+ this.nome 
+						+ "\nHorário: " + strdata 
+						+ "\nLocal: " 	+ this.local;
+			}
 		} catch (java.text.ParseException e) {
 			return null;
 		}
