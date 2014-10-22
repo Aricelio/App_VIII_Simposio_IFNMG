@@ -6,15 +6,16 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import br.edu.tads.DomainModel.Atividade;
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+import br.edu.tads.DomainModel.Atividade;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -545,6 +546,9 @@ public class MainActivity extends ActionBarActivity {
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
+			//Toast.makeText(this, "Sobre", Toast.LENGTH_SHORT).show();
+			Intent intent = new Intent(MainActivity.this, Sobre.class);
+			MainActivity.this.startActivity(intent);
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
