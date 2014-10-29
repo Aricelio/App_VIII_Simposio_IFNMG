@@ -5,5 +5,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Sobre</string>
     <string name="title_activity_sobre">Sobre</string>
+    <string name="title_activity_principal">VIII Simposio</string>
+    <string name="title_activity_palestras">Palestras</string>
+    <string name="title_activity_bomber_tads">Torneio BomberTADS</string>
 
 </resources>
