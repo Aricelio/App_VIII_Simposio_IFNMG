@@ -142,7 +142,6 @@ public class MainActivity extends ActionBarActivity {
 		Atividade atividade12 = new Atividade();
 		Atividade atividade13 = new Atividade();
 		Atividade atividade14 = new Atividade();
-		Atividade atividade15 = new Atividade();
 
 		atividade1.setNome("Credenciamento");
 		atividade1.setLocal("Ensino Superior");
@@ -158,8 +157,7 @@ public class MainActivity extends ActionBarActivity {
 		atividade3.setLocal("Laboratório II - Ensino Superior");
 		atividade3.setData(converteStringToDate("28-10-2014 10:00"));
 
-		atividade4
-				.setNome("Minicurso: Modelagem 3D com Trimble Sketchup - Turma I");
+		atividade4.setNome("Minicurso: Modelagem 3D com Trimble Sketchup - Turma I");
 		atividade4.setLocal("Laboratório 3 - Ensino Superior");
 		atividade4.setData(converteStringToDate("28-10-2014 10:00"));
 
@@ -169,7 +167,7 @@ public class MainActivity extends ActionBarActivity {
 		atividade5.setLocal("");
 
 		// Abertura.....................................................
-		atividade6.setNome("Abertura Oficial\nPalestra: Sobre Problemas, Respostas, Perguntas e Soluções");
+		atividade6.setNome("Abertura Oficial");
 		atividade6.setLocal("Anfiteatro - Ensino Superior");
 		atividade6.setData(converteStringToDate("28-10-2014 13:30"));
 
@@ -180,11 +178,6 @@ public class MainActivity extends ActionBarActivity {
 		atividade8.setNome("Apresentação de Artigos Completos");
 		atividade8.setLocal("Anfiteatro - Ensino Superior");
 		atividade8.setData(converteStringToDate("28-10-2014 16:00"));
-
-		// BomberTads.....................................................
-		atividade15.setNome("Torneio de Bomber TADS");
-		atividade15.setLocal("Laboratório II e Laboratorio III - Superior");
-		atividade15.setData(converteStringToDate("28-10-2014 18:00"));
 		
 		// Minicursos da Noite..........................................
 		atividade9.setNome("Minicurso: Desenvolvimento de Sites Responsivos");
@@ -221,7 +214,6 @@ public class MainActivity extends ActionBarActivity {
 		listaT.add(atividade6);
 		listaT.add(atividade7);
 		listaT.add(atividade8);
-		listaT.add(atividade15);
 		listaT.add(atividade9);
 		listaT.add(atividade10);
 		listaT.add(atividade11);
@@ -246,7 +238,6 @@ public class MainActivity extends ActionBarActivity {
 		Atividade atividade7 = new Atividade();
 		Atividade atividade8 = new Atividade();
 		Atividade atividade9 = new Atividade();
-		Atividade atividade10 = new Atividade();
 		Atividade atividade11 = new Atividade();
 
 		// Minicursos de Manhã................................................
@@ -288,11 +279,6 @@ public class MainActivity extends ActionBarActivity {
 		atividade9.setLocal("Anfiteatro - Ensino Superior");
 		atividade9.setData(converteStringToDate("29-10-2014 15:30"));
 
-		atividade10.setNome("Palestra: Ferramenta de Bioinformática para o HIV: O Brasil no Cenário Mundial "
-					+ "\n\nPalestra: Utilização de Ferramentas de Inteligência Computacional para Seleção de Características no Problema de Classificação de Tipos de Leucemia\n");
-		atividade10.setLocal("Anfiteatro - Ensino Superior");
-		atividade10.setData(converteStringToDate("29-10-2014 16:00"));
-
 		atividade11.setNome("Confraternização");
 		atividade11.setLocal("Salão de Festas Deth Noivas");
 		atividade11.setData(converteStringToDate("29-10-2014 20:00"));
@@ -307,7 +293,6 @@ public class MainActivity extends ActionBarActivity {
 		listaQ.add(atividade7);
 		listaQ.add(atividade8);
 		listaQ.add(atividade9);
-		listaQ.add(atividade10);
 		listaQ.add(atividade11);
 
 		return listaQ;
@@ -326,7 +311,6 @@ public class MainActivity extends ActionBarActivity {
 		Atividade atividade6 = new Atividade();
 		Atividade atividade7 = new Atividade();
 		Atividade atividade8 = new Atividade();
-		Atividade atividade9 = new Atividade();
 		Atividade atividade10 = new Atividade();
 		Atividade atividade11 = new Atividade();
 		Atividade atividade12 = new Atividade();
@@ -373,11 +357,6 @@ public class MainActivity extends ActionBarActivity {
 		atividade8.setNome("Almoço");
 		atividade8.setLocal("");
 		atividade8.setData(converteStringToDate("30-10-2014 12:00"));
-
-		// Palestras.......................................................
-		atividade9.setNome("Palestra: Análise em Big Data via Mineração de Dados");
-		atividade9.setLocal("Anfiteatro - Ensino Superior");
-		atividade9.setData(converteStringToDate("30-10-2014 13:30"));
 
 		atividade10.setNome("Intervalo - Mostra de Posteres");
 		atividade10.setLocal("Ensino Superior");
@@ -434,7 +413,6 @@ public class MainActivity extends ActionBarActivity {
 		listaQ.add(atividade6);
 		listaQ.add(atividade7);
 		listaQ.add(atividade8);
-		listaQ.add(atividade9);
 		listaQ.add(atividade10);
 		listaQ.add(atividade11);
 		listaQ.add(atividade20);
